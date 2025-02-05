@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica favortia</title>
+    <style>
+        .titulos {
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: underline;
+            text-align: center;
+            font-size: x-large;
+        }
+        body{
+            background-color: beige;
+        }
+        .container {
+            display: flex;
+            flex-direction: row; /* Acomoda los elementos en fila */
+            align-items: flex-start; /* Alinea los elementos arriba */
+            gap: 30px; /* Espacio entre la imagen y la lista */
+            padding: 20px;
+        }
+
+        .container img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulos">Mis gustos musicales</h1>
+    </header>
+    <main>
+        <article>
+            <div class="container">
+                <figure>
+                    <img src="https://images.pexels.com/photos/30457078/pexels-photo-30457078/free-photo-of-auriculares-de-estudio-negros-sostenidos-por-una-mano-tatuada.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="audífonos negros">
+                    <figcaption>Auriculares de color negro</figcaption>
+                </figure>
+                <div>
+                    <h2>Artistas favoritos</h2>
+                    <ul>
+                        <li style="color: rgb(212, 118, 118);">Artista 1</li>
+                        <li style="color: rgb(134, 215, 134);">Artista 2</li>
+                        <li style="color: rgb(126, 126, 188);">Artista 3</li>
+                        <li style="color: rgb(191, 126, 191);">Artista 4</li>
+                        <li style="color: rgb(205, 180, 132);">Artista 5</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <header>
+                <h1>Álbumes favoritos</h1>
+            </header>
+            <dl>
+                <dt>Ghost</dt>
+                <dd>Banda de rock-metal</dd>
+                <dt>(G)-Idle</dt>
+                <dd>Grupo de pop femenino</dd>
+            </dl>
+        </article>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+        <address>
+            <p>Sitio web desarrollado por: PRMM</p>
+            <p>Información de contacto:</p>
+            <a href="Facebook">Facebook</a>
+            <a href="Instagram">Instagram</a>
+            <a href="TikTok">Tik Tok</a>
+        </address>
+    </footer>
+</body>
+</html>
