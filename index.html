@@ -16,6 +16,21 @@
         body{
             background-color: beige;
         }
+        footer{
+            text-align: center;
+        }
+        .lista{
+            display: flex;
+            flex-direction:column;
+            align-items:center;
+            gap: 15px;
+            justify-content: center;
+        }
+        .lista img{
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -34,21 +49,18 @@
             <header>
                 <p style="font-style: italic; font-weight: bold; font-size: large; text-align: center;">Estos son algunos de mis pasatiempos favoritos:</p>
             </header>
-            <ul>
-                <li style="color: rgb(212, 118, 118); text-align: center;">Cocinar</li>
-                <li style="color: rgb(134, 215, 134); text-align: center;">Leer</li>
-                <li style="color: rgb(126, 126, 188); text-align: center;">Escuchar música</li>
-                <li style="color: rgb(191, 126, 191); text-align: center;">Los videojuegos</li>
-                <li style="color: rgb(205, 180, 132); text-align: center;">Ver videos, series o películas</li>
-            </ul>
-            <section>
-                <h2 class="titulos">Educación:</h2>
-                <ol>
-                    <li>Primaria</li>
-                    <li>Secundaria</li>
-                    <li>Preparatoria</li>
-                    <li>Universidad</li>
-                </ol>
+            <section class="lista">
+                <ul>
+                    <li style="color: rgb(212, 118, 118); text-align: center;">Cocinar</li>
+                    <li style="color: rgb(134, 215, 134); text-align: center;">Leer</li>
+                    <li style="color: rgb(126, 126, 188); text-align: center;">Escuchar música</li>
+                    <li style="color: rgb(191, 126, 191); text-align: center;">Los videojuegos</li>
+                    <li style="color: rgb(205, 180, 132); text-align: center;">Ver videos, series o películas</li>
+                </ul>
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2023/08/12/13/59/cat-8185712_1280.jpg" alt="Gato negro">
+                    <figcaption style="text-align: center;">Yo</figcaption>
+                </figure>
             </section>
             <footer>
                 <hr>
@@ -58,6 +70,7 @@
     <aside>
         <p>Más información de mi</p>
         <a href="Sobre mi">Sobre mi</a>
+        <hr>
     </aside>
     <footer>
         <address>
