@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series y peliculas</title>
+    <style>
+        .titulos {
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: underline;
+            text-align: center;
+            font-size: x-large;
+        }
+        .subtitulos {
+            font-style: normal;
+            font-weight: bolder;
+            text-decoration: underline;
+            text-align: center;
+            font-size:  larger;
+        }
+        body{
+            background-color: beige;
+        }
+        footer{
+            text-align: center;
+        }
+        .series{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        .series img{
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .peliculas{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        .peliculas img{
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulos">Mis series y peliculas favoritos</h1>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h1 class="subtitulos">Series</h1>
+            </header>
+            <p style="font-size: large; font-weight: bold;">Mi tipo de series favoritas son las de ciencia ficción. Por ejemplo:</p>
+            <section class="series">
+                <figure>
+                    <img src="https://images.pexels.com/photos/7476134/pexels-photo-7476134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Universio estrellado">
+                    <figcaption>Univero con estrellas</figcaption>
+                </figure>
+                <ul>
+                    <li>The 100</li>
+                    <li>Snowpiercer</li>
+                    <li>Orsak</li>
+                    <li>Dark</li>
+                    <li>Stranger Things</li>
+                </ul>
+                <p>También soy fan de las series animadas, como:</p>
+                <ul>
+                    <li>Rick and Morty</li>
+                    <li>Bojack</li>
+                    <li>Avatar</li>
+                    <li>Arcane</li>
+                    <li>Evangelion</li>
+                </ul>
+            </section>
+            <hr>
+        </article>
+        <article>
+            <header>
+                <h1 class="subtitulos">Peliculas</h1>
+            </header>
+            <p style="font-size: large; font-weight: bold;">Mis peliculas favoritas también son de ciencia ficción. Algunas de ellas son:</p>
+            <section class="peliculas">
+                <figure>
+                    <img src="https://images.pexels.com/photos/8474439/pexels-photo-8474439.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Astronauta">
+                    <figcaption>Astronauta</figcaption>
+                </figure>
+                <ul>
+                    <li>Interestelar</li>
+                    <li>Odisea en el espacio</li>
+                    <li>Marte: Mision rescate</li>
+                    <li>Gravedad</li>
+                    <li>Alien</li>
+                </ul>
+            </section>
+            <hr>
+        </article>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+        <address>
+            <p>Sitio web desarrollado por: PRMM</p>
+            <p>Información de contacto:</p>
+            <a href="Facebook">Facebook</a>
+            <a href="Instagram">Instagram</a>
+            <a href="TikTok">Tik Tok</a>
+        </address>
+    </footer>
+</body>
+</html>
